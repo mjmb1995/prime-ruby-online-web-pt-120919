@@ -8,4 +8,5 @@ def prime?(num)
     end
     i += 1
   end
+  prime
 end
