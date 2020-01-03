@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(num)
-  i = 2
+  i = 1
   prime = true
   while i <= num - 1
     if num % i === 0 && i != num
