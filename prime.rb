@@ -4,6 +4,7 @@ def prime?(num)
   while i < num - 1
     if num % i === 0
       return true
+      break
     end
     i += 1
   end
