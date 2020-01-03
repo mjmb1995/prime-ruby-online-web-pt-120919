@@ -4,7 +4,7 @@ def prime?(num)
   prime = false
   while i < num - 1
     if num % i === 0
-      return prime = true
+       prime = true
     end
     i += 1
   end
