@@ -1,10 +1,10 @@
 # Add  code here!
 def prime?(num)
   i = 2
-  prime = false
-  while i <= num
+  prime = true
+  while i <= num - 1
     if num % i === 0 && i != num
-       prime = true
+       prime = false
     end
     i += 1
   end
