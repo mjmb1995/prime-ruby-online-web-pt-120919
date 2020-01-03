@@ -1,7 +1,7 @@
 # Add  code here!
-def prime?(int)
+def prime?(num)
   i = 0
-  [2..int].each do |num|
+  [2..num].each do |num|
     return true if int % num === 0
     i += 1
   end
