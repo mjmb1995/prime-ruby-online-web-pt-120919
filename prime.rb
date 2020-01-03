@@ -2,7 +2,7 @@
 def prime?(num)
   i = 2
   prime = false
-  while i < num
+  while i <= num
     if num % i === 0
        prime = true
     end
